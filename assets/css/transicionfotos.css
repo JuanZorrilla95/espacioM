@@ -1,0 +1,22 @@
+.slider {
+
+    position: relative !important;
+    overflow: hidden !important;
+    text-align: center !important;
+}
+  
+.slide {
+    opacity: 0;
+    position: absolute !important;
+    
+    transition: opacity 3s ease !important; /* Transición suave de 3 segundos */
+}
+section {
+    display: flex !important;
+    flex-flow: column wrap !important;
+    align-items: center !important;
+    align-content: center !important;
+    justify-content: center !important;
+    min-height: 50vh !important;
+    margin-top: 5vh !important;
+}
