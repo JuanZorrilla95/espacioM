@@ -1,0 +1,19 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+pagos:
+    path: /pagos
+    controller: App\Controller\PagosController::pagos
+
+    # config/routes.yaml
+payment_create:
+    path: '/payment/create'
+    controller: 'App\Controller\PagosController::createPreference'
+
+payment_confirm:
+    path: '/pagos/confirmar-pago/{id}'
+    controller: 'App\Controller\PagosController::confirmarPago'
+
+preapproval_realizar:
+    path: /realizar-preaprobacion
+    controller: App\Controller\PagosController::realizarPreaprobacion
