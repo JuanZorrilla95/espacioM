@@ -100,10 +100,10 @@
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li ><a href="{{ path('index') }}">Yoga | Home</a></li>
-                <li class="active"><a  href="{{ path('pagos') }}">Pagos</a></li>
+                <li ><a href="index">Yoga | Home</a></li>
+                <li class="active"><a  href="pagos">Pagos</a></li>
                 <li><a href="generic.html">Videos gratis</a></li>
-                <li ><a href="{{ path('contacto') }}">Contacto</a></li>
+                <li ><a href="contacto">Contacto</a></li>
             </ul>
             <ul class="icons">
                 <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -154,7 +154,7 @@
 							<label for="name">Metodo de pago: efectivo o transferencia</label>
 						</div>
 						<div class="btn-container">
-							<button class="btn" onclick="window.open('{{ path('confirmar_pago') }}', '_blank')" type="button">Pagar</button>
+							<button class="btn" onclick="window.open('pagos/confirmar_pago.html.twig', '_blank')" type="button">Pagar</button>
 						</div>
 					</form>
 				</div>
