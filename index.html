@@ -1,8 +1,7 @@
+
 <html>
 	<head>
 		<title>Espacio M | Prof. Marcela Menez</title>
-		<link rel="icon" type="image/x-icon" href="images/yoga.ico">
-
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -10,20 +9,25 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload" onload="interval()">
-			
-	<!-- Header -->
-		<header id="header">
-		</header>
+
+		<header id="header"></header>
 	
 		<nav id="nav">
 			<ul class="links">
-				<li class="active"><a href="index">Yoga | Home</a></li>
-				<li><a href="pagos">Pagos</a></li>
-				<li><a href="generic.html">Videos</a></li>
-				<li><a href="contacto">Contacto</a></li>
+				<li class="active"><a href="{{ path('index') }}">Yoga | Home</a></li>
+				<li><a href="{{ path('pagos') }}">Pagos</a></li>
+				<li><a href="generic.html">Videos gratis</a></li>
+				<li><a href="{{ path('contacto') }}">Contacto</a></li>
 			</ul>
+
+			{# <form action="{{ path('resultados_busqueda') }}" method="GET" class="">
+				<input type="text" name="q" placeholder="Buscar...">
+				<button type="submit">Buscar</button>
+			</form> #}
+
 			<ul class="icons">
-				<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+				<li><a href="login" onclick="window.open('login', '_blank', 'width=500,height=400'); return false;" class="icon solid fa-user"><span class="label">Iniciar Sesión</span></a></li>
+				<li><a href="">Registrarse</span></a></li>
 				<li><a href="https://www.facebook.com/marcela.menez/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 				<li><a href="https://www.instagram.com/marcela.menez/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 			</ul>
