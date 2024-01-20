@@ -1,68 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Espacio M | Prof. Marcela Menez</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/transicionfotos.css">
+    <link rel="stylesheet" href="assets/css/noscript.css">
+    <link rel="icon" type="image/x-icon" href="images/yoga.ico">
+</head>
+<body class="is-preload" onload="interval()">
 
-<html>
-	<head>
-		<title>Espacio M | Prof. Marcela Menez</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/transicionfotos.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/x-icon" href="images/yoga.ico">
-	</head>
-	<body class="is-preload" onload="interval()">
+<header id="header">
+    <h1>Espacio M</h1>
+    <p>Explora el bienestar a través del yoga</p>
+</header>
 
-		<header id="header"></header>
-	
-		<nav id="nav">
-			<ul class="links">
-				<li class="active"><a href="index">Yoga | Home</a></li>
-				<li><a href="pagos">Pagos</a></li>
-				<li><a href="generic.html">Videos gratis</a></li>
-				<li><a href="contacto">Contacto</a></li>
-			</ul>
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href="index">Yoga | Home</a></li>
+        <li><a href="pagos">Pagos</a></li>
+        <li><a href="generic.html">Videos gratis</a></li>
+        <li><a href="contacto">Contacto</a></li>
+    </ul>
 
-			<!-- <form action="{{ path('resultados_busqueda') }}" method="GET" class="">
-				<input type="text" name="q" placeholder="Buscar...">
-				<button type="submit">Buscar</button>
-			</form> -->
-			<ul class="icons">
-				<li><a href="login" onclick="window.open('login', '_blank', 'width=500,height=400'); return false;" class="icon solid fa-user"><span class="label">Iniciar Sesión</span></a></li>
-				<li><a href="">Registrarse</span></a></li>
-				<li><a href="https://www.facebook.com/marcela.menez/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="https://www.instagram.com/marcela.menez/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-			</ul>
-		</nav>
-		<div id="main">
-			<article class="post featured">
-				<header class="major">
-					<span class="date">2023</span>
-					<h2><a href="#">Clases <br />Presenciales</a></h2>
-					<p>Espacio de Yoga de Prof. Marcela Menez</p>
-				</header>
-				<section class="slider image main">
-					<div class="slide">
-						<img src="images/foto1.JPG" alt="">
-					</div>
-					<div class="slide">
-						<img src="images/foto2.JPG" alt="">
-					</div>
-				</section>
-			</article>
-		</div>
-		<footer id="footer"></footer>
-		<div id="copyright">
-			<ul>&copy; Creado por Juan Zorrilla Menez </li><li>2023</li>
-		</div>
+    <ul class="icons">
+        <li><a href="login" onclick="window.open('login', '_blank', 'width=500,height=400');" class="icon solid fa-user"><span class="label">Iniciar Sesión</span></a></li>
+        <li><a href="#" class="icon solid fa-user-plus"><span class="label">Registrarse</span></a></li>
+        <li><a href="https://www.facebook.com/marcela.menez/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+        <li><a href="https://www.instagram.com/marcela.menez/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+    </ul>
+</nav>
 
+<div id="main">
+    <article class="post featured">
+        <header class="major">
+            <span class="date">2023</span>
+            <h2><a href="#">Clases Presenciales</a></h2>
+            <p>Explora el bienestar físico y mental</p>
+        </header>
+        <section class="slider image main">
+            <div class="slide">
+                <img src="images/foto1.JPG" alt="Clase de yoga">
+            </div>
+            <div class="slide">
+                <img src="images/foto2.JPG" alt="Yoga al aire libre">
+            </div>
+        </section>
+    </article>
 </div>
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/fotos.js"></script>
-	</body>
+
+<footer id="footer">
+    <div class="inner">
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-envelope"><span class="label">Correo</span></a></li>
+            <li><a href="#" class="icon solid fa-phone"><span class="label">Teléfono</span></a></li>
+            <li><a href="#" class="icon brands fa-map-marker-alt"><span class="label">Ubicación</span></a></li>
+        </ul>
+        <p>&copy; Creado por Juan Zorrilla Menez | 2023</p>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/fotos.js"></script>
+
+</body>
 </html>
